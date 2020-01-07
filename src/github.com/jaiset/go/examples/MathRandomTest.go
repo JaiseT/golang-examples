@@ -9,14 +9,14 @@ import (
 func main() {
 	fmt.Println("My favorite number is", rand.Intn(10))
 	fmt.Print(rand.Intn(100), ",")
-    fmt.Print(rand.Intn(100))
-    fmt.Println()
+	fmt.Print(rand.Intn(100))
+	fmt.Println()
 	fmt.Println(rand.Float64())
-	
+
 	s1 := rand.NewSource(time.Now().UnixNano())
-    r1 := rand.New(s1)
-	
+	r1 := rand.New(s1)
+
 	fmt.Print(r1.Intn(100), ",")
-    fmt.Print(r1.Intn(100))
-    fmt.Println()
+	fmt.Print(r1.Intn(100))
+	fmt.Println()
 }

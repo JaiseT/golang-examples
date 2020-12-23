@@ -4,6 +4,7 @@ import (
 	"fmt"
 )
 
+//All booleans in go will be initialized with a zerp value (false)
 func main() {
 
 	var n bool = true

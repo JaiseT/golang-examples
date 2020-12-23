@@ -14,5 +14,5 @@ func main() {
 	k := i + 1
 	fmt.Println(k)
 
-	varTest()
+	//varTest()
 }

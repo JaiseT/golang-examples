@@ -16,6 +16,6 @@ func say(s string) {
 
 func main() {
 	go say("hey")
-	go say("There")
-	time.Sleep(time.Second)
+	go say("There")         //Try remove go from this line
+	time.Sleep(time.Second) //Try commenting out this stmnt.
 }
